@@ -2,7 +2,7 @@ import style from './style.module.scss'
 import {Navigation} from "@/app/components/Navigation/Navigation";
 
 const navItems = [
-    {label: 'Home', href: '/'},
+    {label: 'Домой', href: '/'},
     {label: 'Специалисты по размещению', href: '/razmeshenie'},
     // {label: 'About', href: '/about'},
 ];

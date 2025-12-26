@@ -7,8 +7,8 @@ const RazmeshenieLayout = ({
 	children: React.ReactNode
 }) => {
 	return (
-		<div>
-			<div className={style.main}>
+		<div className={style.main}>
+			<div className={style.wrapper}>
 				<h2>База знаний - Специалисты по размещению</h2>
 				<p>
 					Рабочее пространство отдела. База знаний, таблицы, ресурсы и документация для эффективной работы.

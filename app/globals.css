@@ -29,6 +29,10 @@ body {
     height: 100%;
 }
 
+ul {
+    padding: 0;
+}
+
 /*global*/
 
 .container {
