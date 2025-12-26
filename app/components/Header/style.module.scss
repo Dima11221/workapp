@@ -1,0 +1,44 @@
+//@import '../../globals.css';
+
+.headFoot {
+  background-color: var(--green);
+  //width: 100%;
+  padding: 16px 0;
+}
+
+.headFootWrapper {
+  width: 400px;
+  color: var(--white);
+  margin: 0 60px;
+  justify-content: space-evenly;
+}
+
+.headLink {
+  transition: 0.3s;
+}
+
+.headLink:hover {
+  color: var(--blue-color);
+}
+
+
+
+
+
+
+
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}

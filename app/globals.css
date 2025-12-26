@@ -1,0 +1,135 @@
+/*@import "normalize.css";*/
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+body {
+    max-width: 1920px;
+    min-width: 320px;
+    word-break: normal;
+    height: 100%;
+}
+
+/*global*/
+
+.container {
+    margin: 0 auto;
+}
+
+.testCenter {
+    text-align: center;
+}
+
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /*height: 100%;*/
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+}
+
+.listReset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btnReset {
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.flexRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+
+:root {
+    --blue-color: #26a69a;
+    --light-blue-color: #33c7b9;
+    --grey: #5c6c6b;
+    --light-grey: #9e9e9e;
+    --white: #fff;
+    --green: #43A047;
+}
+
+.btn {
+    border: none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color .2s ease-out;
+    color: var(--white);
+    background-color: var(--blue-color);
+}
+
+.btn:hover {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--light-blue-color);
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    color: var(--grey);
+    background-color: var(--light-grey);
+    cursor: not-allowed;
+}
+
+
