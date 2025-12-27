@@ -12,6 +12,7 @@ const TheHeader = () => {
     return (
         <header className={style.headFoot}>
             <div className={`${style.container} ${style.headFootWrapper} ${style.flex}`}>
+              <></>
                 <Navigation navLinks={navItems} />
             </div>
         </header>

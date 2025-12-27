@@ -4,17 +4,17 @@ import { usePathname } from "next/navigation";
 import style from './style.module.scss'
 // import {useSession, signIn, signOut} from "next-auth/react";
 
-type NavLink = {
+interface NavLink {
     label: string;
     href: string;
-};
+}
 
-type Props = {
+interface INavProps {
     navLinks: NavLink[];
 }
 
 
-const Navigation = ({navLinks}: Props) => {
+const Navigation = ({navLinks}: INavProps) => {
     const pathname = usePathname();
     // const session = useSession();
 
@@ -31,7 +31,7 @@ const Navigation = ({navLinks}: Props) => {
                         href={link.href}
                         className={
                         `${isActive && `${style.active}`}
-                        ${!isActive && ''}`}
+                        ${!isActive && `${style.labelColor}`}`}
                     >
                         {link.label}
                     </Link>

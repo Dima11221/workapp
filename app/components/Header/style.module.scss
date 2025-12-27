@@ -1,14 +1,13 @@
 .headFoot {
-  background-color: var(--green);
   padding: 16px 16px;
   display: flex;
 }
 
 .headFootWrapper {
-  width: 400px;
+  width: 100%;
   color: var(--white);
-  margin: 0 60px;
-  justify-content: space-evenly;
+  padding: 0 60px 20px;
+  border-bottom: 1px solid var(--light-grey);
 }
 
 .headLink {

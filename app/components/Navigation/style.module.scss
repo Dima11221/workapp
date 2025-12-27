@@ -1,4 +1,20 @@
 .active {
-  color: var(--color-active);
+  color: var(--light-orange);
+  text-decoration: underline;
+  text-underline-offset: 4px;
   cursor: default;
+}
+
+.labelColor {
+  color: var(--dark-grey);
+  transition: all 0.3s ease-in-out;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: transparent;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration-color: var(--light-orange);
+  }
 }

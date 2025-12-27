@@ -103,8 +103,10 @@ ul {
     --light-blue-color: #33c7b9;
     --grey: #5c6c6b;
     --light-grey: #9e9e9e;
+    --dark-grey: #1a2129;
     --white: #fff;
     --green: #43A047;
+    --light-orange: #FAB50A
 }
 
 .btn {

@@ -69,4 +69,14 @@ export const resources = [
 			}
 		],
 	},
+	{
+		id: 'kedo',
+		title: 'Контур КЭДО',
+		urls: [
+			{
+				name: 'kedo.kontur.ru',
+				url: 'https://kedo.kontur.ru/orgs/'
+			}
+		],
+	},
 ]
