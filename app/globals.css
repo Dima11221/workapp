@@ -85,7 +85,6 @@ ul {
 .flex {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
