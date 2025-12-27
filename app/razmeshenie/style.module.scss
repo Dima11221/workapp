@@ -22,10 +22,14 @@
 }
 
 .link {
+  border: 1px solid var(--dark-blue-color);
+  padding: 0 10px;
+  border-radius: 5px;
   transition: all 0.3s ease-in-out;
   &:hover {
     cursor: pointer;
-    color: blue;
+    background: var(--dark-blue-color);
+    color: var(--white);
   }
 }
 
@@ -72,4 +76,8 @@
 
 .wrapHead {
   margin-bottom: 16px;
+}
+
+.textStyle {
+  padding: 8px 16px;
 }

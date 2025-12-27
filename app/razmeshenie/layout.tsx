@@ -14,9 +14,9 @@ const RazmeshenieLayout = ({
 					Рабочее пространство отдела. База знаний, таблицы, ресурсы и документация для эффективной работы.
 				</p>
 			</div>
-			<ul className={style.linksList}>
-				<li className={style.link}><Link href='/razmeshenie/tables'><h3>Таблицы</h3></Link></li>
-				<li className={style.link}><Link href='/razmeshenie/resources'><h3>Полезные ресурсы</h3></Link></li>
+			<ul className={`listReset ${style.linksList}`}>
+				<li className={style.link}><Link href='/razmeshenie/tables'><h3 className={style.textStyle}>Таблицы</h3></Link></li>
+				<li className={style.link}><Link href='/razmeshenie/resources'><h3 className={style.textStyle}>Полезные ресурсы</h3></Link></li>
 			</ul>
 			{children}
 		</div>
