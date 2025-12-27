@@ -1,46 +1,33 @@
 @import "../Header/style.module.scss";
 
 
-.headFoot {
-    background-color: var(--green);
-    width: 100%;
-    padding: 16px 0;
-}
-
 .footer {
-    padding: 16px 0 0 0
+  padding: 16px 0 0 0
 }
 
 .footerWrapper {
-    background-color: #C8E6C9;
-    height: 60px;
+  border-top: 1px solid var(--light-grey);
+  width: 100%;
+  padding: 16px 0 0;
 }
 
 .footerItems {
-    justify-content: space-around;
-    height: 60px;
+  justify-content: space-around;
+  height: 60px;
 }
 
 .GHLink {
-    position: relative;
-    transition: 0.3s;
+  position: relative;
+  transition: 0.3s;
 }
 
 .GHLink:hover {
-    color: var(--blue-color);
+  color: var(--blue-color);
 }
 
 .GHIcon {
-    position: absolute;
-    top: -15px;
-    left: 100px;
+  position: absolute;
+  top: -15px;
+  left: 100px;
 
 }
-
-/*svg path {*/
-/*    transition: 0.3s;*/
-/*}*/
-
-/*svg:hover path {*/
-/*    fill: var(--blue-color);*/
-/*}*/
