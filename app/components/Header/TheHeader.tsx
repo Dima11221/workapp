@@ -1,5 +1,8 @@
 import style from './style.module.scss'
 import {Navigation} from "@/app/components/Navigation/Navigation";
+import Image from "next/image";
+import Kosmo from '../../../public/pictures/kosmo.webp'
+import Link from "next/link";
 
 const navItems = [
     {label: 'Домой', href: '/'},
@@ -12,8 +15,18 @@ const TheHeader = () => {
     return (
         <header className={style.headFoot}>
             <div className={`${style.container} ${style.headFootWrapper} ${style.flex}`}>
-              <></>
-                <Navigation navLinks={navItems} />
+							<Link href='/'>
+								<Image
+									src={Kosmo}
+									alt="Kosmo"
+									width="100"
+									height="100"
+									className={style.img}
+								/>
+							</Link>
+							<div className={`${style.flex} ${style.flexCol}`}>
+								<Navigation navLinks={navItems} />
+							</div>
             </div>
         </header>
     )
