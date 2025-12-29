@@ -4,7 +4,6 @@ export const googleSheets = [
 		title: 'Таблица по нагрузке',
 		description: 'Таблица по нагрузке Специалистов по размещению',
 		url: 'https://docs.google.com/spreadsheets/d/1xdeHDm-8gTc4Lo4EI_5FjzfJuPJUyVRfInchV9-mbLs/edit?gid=475356922#gid=475356922',
-		category: 'Нагрузка',
 		icon: '📊️',
 	},
 	{
@@ -12,7 +11,6 @@ export const googleSheets = [
 		title: 'Таблица по гипотезам',
 		description: 'Таблица по гипотезам Специалистов по размещению',
 		url: 'https://docs.google.com/spreadsheets/d/1zU3dm5Cnpe5YUar9R02Me69jYAFH0k1eYObaUyY1n1g/edit?gid=0#gid=0',
-		category: 'Гипотезы',
 		icon: '📊️',
 	},
 	{
@@ -20,7 +18,6 @@ export const googleSheets = [
 		title: 'Пополнения спец.размещения',
 		description: 'Таблица для отслеживания пополнений',
 		url: 'https://docs.google.com/spreadsheets/d/1lgZ1x_Zq5OlgFUer_Q1GFDKDI0kAWxuMWV4pl0kzlWA/edit?gid=348100850#gid=348100850',
-		category: 'Финансы',
 		icon: '💰',
 	},
 	{
@@ -28,7 +25,6 @@ export const googleSheets = [
 		title: 'Информация по ресурсам',
 		description: 'Ресурсы для отдела спец размещения',
 		url: 'https://docs.google.com/spreadsheets/d/15AEBy2lwkwnb3lZKQ6WUknc4n3JXDCra00RlBbLg15o/edit?gid=95007255#gid=95007255',
-		category: 'Ресурсы',
 		icon: '📚',
 	},
 	{
@@ -36,7 +32,6 @@ export const googleSheets = [
 		title: 'База знаний отдела',
 		description: 'Основная база знаний отдела спец размещения',
 		url: 'https://docs.google.com/spreadsheets/d/1sfnrxzDR6EN5Q7g1h9hSw11ULYL9zzsl1X-FFJqrBSY/edit?gid=592541496#gid=592541496',
-		category: 'База знаний',
 		icon: '🗄️',
 	},
 	{
@@ -44,7 +39,6 @@ export const googleSheets = [
 		title: 'Тарифы',
 		description: 'Таблица тарифов на услуги для бирж',
 		url: 'https://docs.google.com/spreadsheets/d/136jwX-4TyzxDKwVJTypzLvpjEKEnDf9lwdKYocXxOVw/edit?gid=336603204#gid=336603204',
-		category: 'Финансы',
 		icon: '🏷️',
 	},
 	{
@@ -52,7 +46,6 @@ export const googleSheets = [
 		title: 'Таблица отпусков',
 		description: 'График отпусков сотрудников',
 		url: 'https://docs.google.com/spreadsheets/d/1jPjiL3rWNQu4VnlY5q3t7T0-IKLjhDiOvFFMk6fHySs/edit?gid=1072081338#gid=1072081338',
-		category: 'HR',
 		icon: '🏖️️',
 	},
 	{
@@ -60,7 +53,6 @@ export const googleSheets = [
 		title: 'План оплат',
 		description: 'Отслеживание оплат и их обработки',
 		url: 'https://docs.google.com/spreadsheets/d/1ju-_vrkbsmEhcQzUimmZ8xqZBSAdt-61v7_TBiEdpgM/edit?gid=1934969220#gid=1934969220',
-		category: 'Финансы',
 		icon: '📊️',
 	},
 	{
@@ -68,7 +60,6 @@ export const googleSheets = [
 		title: 'Гугл аккаунты',
 		description: 'Список Google аккаунтов отдела',
 		url: 'https://docs.google.com/spreadsheets/d/1Nx4AfHT1aCSO9aadjObMKLe0zYYgHDDKAbO4D5G9tbU/edit?gid=67133878#gid=67133878',
-		category: 'Аккаунты',
 		icon: '📧',
 	},
 	{
@@ -76,7 +67,6 @@ export const googleSheets = [
 		title: 'Аккаунты для форумов',
 		description: 'Список аккаунтов для форумов',
 		url: 'https://docs.google.com/spreadsheets/d/1aT-DHPEVdgz9isAORAqsa2OeAlClWYOo9keZdLrCqPk/edit?gid=1841173464#gid=1841173464',
-		category: 'Аккаунты',
 		icon: '📧',
 	},
 ]
