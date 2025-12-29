@@ -107,4 +107,14 @@ export const resources = [
 			}
 		],
 	},
+	{
+		id: 'SEO texts',
+		title: 'SEO Анализ текстов',
+		urls: [
+			{
+				name: 'text.ru',
+				url: 'https://text.ru/seo'
+			},
+		],
+	},
 ]
