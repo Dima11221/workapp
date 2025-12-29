@@ -17,6 +17,7 @@ const RazmeshenieLayout = ({
 			<ul className={`listReset ${style.linksList}`}>
 				<li className={style.link}><Link href='/razmeshenie/tables'><h3 className={style.textStyle}>Таблицы</h3></Link></li>
 				<li className={style.link}><Link href='/razmeshenie/resources'><h3 className={style.textStyle}>Полезные ресурсы</h3></Link></li>
+				<li className={style.link}><Link href='/razmeshenie/registration'><h3 className={style.textStyle}>Регистрация карточек</h3></Link></li>
 			</ul>
 			{children}
 		</div>

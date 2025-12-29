@@ -1,5 +1,21 @@
 export const googleSheets = [
 	{
+		id: 'nagruzka',
+		title: 'Таблица по нагрузке',
+		description: 'Таблица по нагрузке Специалистов по размещению',
+		url: 'https://docs.google.com/spreadsheets/d/1xdeHDm-8gTc4Lo4EI_5FjzfJuPJUyVRfInchV9-mbLs/edit?gid=475356922#gid=475356922',
+		category: 'Нагрузка',
+		icon: '📊️',
+	},
+	{
+		id: 'gipotezi',
+		title: 'Таблица по гипотезам',
+		description: 'Таблица по гипотезам Специалистов по размещению',
+		url: 'https://docs.google.com/spreadsheets/d/1zU3dm5Cnpe5YUar9R02Me69jYAFH0k1eYObaUyY1n1g/edit?gid=0#gid=0',
+		category: 'Гипотезы',
+		icon: '📊️',
+	},
+	{
 		id: 'popolneniya',
 		title: 'Пополнения спец.размещения',
 		description: 'Таблица для отслеживания пополнений',
@@ -26,7 +42,7 @@ export const googleSheets = [
 	{
 		id: 'tarify',
 		title: 'Тарифы',
-		description: 'Таблица тарифов на услуги',
+		description: 'Таблица тарифов на услуги для бирж',
 		url: 'https://docs.google.com/spreadsheets/d/136jwX-4TyzxDKwVJTypzLvpjEKEnDf9lwdKYocXxOVw/edit?gid=336603204#gid=336603204',
 		category: 'Финансы',
 		icon: '🏷️',
@@ -46,14 +62,6 @@ export const googleSheets = [
 		url: 'https://docs.google.com/spreadsheets/d/1ju-_vrkbsmEhcQzUimmZ8xqZBSAdt-61v7_TBiEdpgM/edit?gid=1934969220#gid=1934969220',
 		category: 'Финансы',
 		icon: '📊️',
-	},
-	{
-		id: 'registratsiya',
-		title: 'Регистрация карточек отзовиков',
-		description: 'Памятка для регистрации карточек',
-		url: 'https://docs.google.com/document/d/1VE1yaYK5o3MZ2utSmNEZKbMsn3fjtWprHKctdC3CEaM/edit?tab=t.0',
-		category: 'База знаний',
-		icon: '🗄️',
 	},
 	{
 		id: 'gmail',

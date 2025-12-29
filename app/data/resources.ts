@@ -79,4 +79,32 @@ export const resources = [
 			}
 		],
 	},
+	{
+		id: 'ii',
+		title: 'Нейросети',
+		urls: [
+			{
+				name: 'chatgpt.com',
+				url: 'https://chatgpt.com/'
+			},
+			{
+				name: 'deepseek.com',
+				url: 'https://chat.deepseek.com/'
+			}
+		],
+	},
+	{
+		id: 'photokonverter',
+		title: 'Конвертеры',
+		urls: [
+			{
+				name: 'convertio.co',
+				url: 'https://convertio.co/ru/'
+			},
+			{
+				name: 'jfif2jpg.com',
+				url: 'https://jfif2jpg.com/ru'
+			}
+		],
+	},
 ]
