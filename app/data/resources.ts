@@ -6,6 +6,10 @@ export const resources = [
 			{
 				name: 'randomus.ru',
 				url: 'https://randomus.ru/password'
+			},
+			{
+				name: 'eset.com',
+				url: 'https://www.eset.com/tm-ru/home/generator-paroley/'
 			}
 		],
 	},
