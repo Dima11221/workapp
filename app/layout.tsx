@@ -9,7 +9,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: "База знаний Markway",
   description: "Хранилище важной информации и необходимые ресурсы для работы сотрудников",
-  icons: '/favicon.webp',
+  icons: {
+    icon: '/favicon.webp',
+    apple: '/favicon.webp',
+  },
 };
 
 export default function RootLayout({
