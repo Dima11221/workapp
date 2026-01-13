@@ -1,5 +1,15 @@
 export const resources = [
 	{
+		id: 'learning_platform',
+		title: 'Платформа для обучения специалистов',
+		urls: [
+			{
+				name: 'mw-knowledge-system.ru',
+				url: 'https://mw-knowledge-system.ru/login'
+			},
+		],
+	},
+	{
 		id: 'paroli',
 		title: 'Генератор паролей',
 		urls: [

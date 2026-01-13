@@ -42,6 +42,20 @@ export const googleSheets = [
 		icon: '🏷️',
 	},
 	{
+		id: 'SIM',
+		title: 'База симкарт спецрамещения',
+		description: 'Таблица по базам симкарт спецрамещения',
+		url: 'https://docs.google.com/spreadsheets/d/1CL-1B0vGLmN1lnWsGZmtnyZ45vonillNAVhkFiT_PII/edit?gid=1682732710#gid=1682732710',
+		icon: '📊️',
+	},
+	{
+		id: 'Oshibki',
+		title: 'Фиксирование ошибок по редактуре',
+		description: 'Таблица по фиксированию ошибок по редактуре',
+		url: 'https://docs.google.com/spreadsheets/d/1kBLd-D0monHyItVr14u8WAnGFa5iiYRyNs9wjTroEns/edit?gid=0#gid=0',
+		icon: '📊️',
+	},
+	{
 		id: 'otpuska',
 		title: 'Таблица отпусков',
 		description: 'График отпусков сотрудников',
