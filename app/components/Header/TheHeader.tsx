@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const navItems = [
     {label: 'Домой', href: '/'},
-    {label: 'Специалисты по размещению', href: '/razmeshenie'},
+    // {label: 'Специалисты по размещению', href: '/razmeshenie'},
     // {label: 'About', href: '/about'},
 ];
 

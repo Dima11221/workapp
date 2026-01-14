@@ -1,11 +1,20 @@
 import Link from "next/link";
 import style from "./style.module.scss"
+import {getServerSession} from "next-auth";
+import {redirect} from "next/navigation";
 
-const RazmeshenieLayout = ({
+const RazmeshenieLayout = async ({
 	children,
 }: {
 	children: React.ReactNode
 }) => {
+	const session = await getServerSession();
+	console.log("Session data in layout:", session);
+
+	if (!session) {
+		redirect("auth/signin");
+	}
+
 	return (
 		<div className={style.main}>
 			<div className={style.wrapper}>

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import style from './style.module.scss'
-// import {useSession, signIn, signOut} from "next-auth/react";
+import {useSession, signIn, signOut} from "next-auth/react";
 
 interface NavLink {
     label: string;
@@ -16,9 +16,11 @@ interface INavProps {
 
 const Navigation = ({navLinks}: INavProps) => {
     const pathname = usePathname();
-    // const session = useSession();
+    const {data: session, status} = useSession();
 
-    // console.log(session)
+    if (status === "loading") {
+        return <div>Загрузка...</div>
+    }
 
     return (
         <>
@@ -38,21 +40,33 @@ const Navigation = ({navLinks}: INavProps) => {
                 )
             })}
 
-            {/*{session?.data && (*/}
-            {/*   <Link href='/profile'>Profile</Link>*/}
-            {/*)}*/}
-
-            {/*{session?.data ?*/}
-            {/*    <Link href="#" onClick={() => signOut({*/}
-            {/*        callbackUrl: "/"*/}
-            {/*    })}>Sign Out</Link>*/}
-            {/*    :*/}
-            {/*    <Link href={`/api/auth/signin?callbackUrl=${encodeURIComponent(pathname)}`}>*/}
-            {/*        Sign In*/}
-            {/*    </Link>*/}
-
-            {/*    // <Link href="/api/auth/signin">Sign In</Link>*/}
-            {/*}*/}
+            {session && (
+              <Link
+                href="/razmeshenie"
+                className={`${pathname === "/razmeshenie" && `${style.active}`} ${
+                  pathname !== "/razmeshenie" && `${style.labelColor}`
+                }`}
+              >
+                  Специалисты по размещению
+              </Link>
+            )}
+            {session ? (
+              <Link
+                href="#"
+                onClick={() => signOut({callbackUrl: "/"})}
+                className={style.labelColor}
+              >
+                  Выйти
+              </Link>
+            )
+            :
+              <Link
+                href={"/auth/signin"}
+                className={style.labelColor}
+              >
+                  Войти
+              </Link>
+            }
         </>
     )
 };
