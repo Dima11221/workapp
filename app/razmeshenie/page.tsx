@@ -1,7 +1,7 @@
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
-	title: 'Специалисты по размещению | Next App',
+	title: 'Специалисты по размещению',
 };
 
 

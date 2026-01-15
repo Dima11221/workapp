@@ -19,6 +19,7 @@ const RazmeshenieLayout = async ({
 		<div className={style.main}>
 			<div className={style.wrapper}>
 				<h2>База знаний - Специалисты по размещению</h2>
+				<h3>Пользователь: {session.user.name}</h3>
 				<p>
 					Рабочее пространство отдела. База знаний, таблицы, ресурсы и документация для эффективной работы.
 				</p>
