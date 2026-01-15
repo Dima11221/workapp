@@ -12,6 +12,7 @@ const allowedEmails = [
   'vasilyev.markway@gmail.com',
 ];
 
+
 const handler = NextAuth({
   providers: [
     CredentialsProvider({
