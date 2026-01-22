@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import style from "./style.module.scss"; // Создайте стили
+import style from "./style.module.scss";
 
 export default function SignInPage() {
   const [email, setEmail] = useState("");

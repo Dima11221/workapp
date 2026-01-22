@@ -10,6 +10,8 @@ const allowedEmails = [
   'murmel.markway@gmail.com',
   'shugaeva.n.markway@gmail.com',
   'vasilyev.markway@gmail.com',
+  'silvestr@markway.ru',
+  'hudyakova@markway.ru',
 ];
 
 
