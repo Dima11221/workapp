@@ -1,4 +1,6 @@
-export const resources = [
+import {IResource} from "@/app/types/types";
+
+export const resources: IResource[] = [
 	{
 		id: 'learning_platform',
 		title: 'Платформа для обучения специалистов',

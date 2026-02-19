@@ -1,4 +1,3 @@
-import {googleSheets} from "@/app/data/tables";
 import style from './../style.module.scss'
 import {registration} from "@/app/data/registration";
 
@@ -14,7 +13,7 @@ const Registration = () => {
 						key={sheet.id}
 						className={style.wrapItem}
 					>
-						<h3 className={`${style.itemInfo} ${style.wrapHead}`}>{sheet.title}{sheet.icon}</h3>
+						<h3 className={`${style.itemInfo} ${style.wrapHead}`}>{sheet.title}</h3>
 						<p>{sheet.description}</p>
 					</a>
 				))}

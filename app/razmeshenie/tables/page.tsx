@@ -1,20 +1,20 @@
-import {googleSheets} from "@/app/data/tables";
+import {tables} from "@/app/data/tables";
 import style from './../style.module.scss'
 
 const Tables = () => {
 	return (
 		<div className={style.mainWrap}>
 			<div className={style.tablesWrapper}>
-				{googleSheets.map((sheet) => (
+				{tables.map((table) => (
 						<a
-							href={sheet.url}
+							href={table.url}
 							target="_blank"
 							rel="noopener noreferrer"
-							key={sheet.id}
+							key={table.id}
 							className={style.wrapItem}
 						>
-							<h3 className={`${style.itemInfo} ${style.wrapHead}`}>{sheet.title}{sheet.icon}</h3>
-							<p>{sheet.description}</p>
+							<h3 className={`${style.itemInfo} ${style.wrapHead}`}>{table.title}</h3>
+							<p>{table.description}</p>
 						</a>
 				))}
 			</div>
